@@ -1,0 +1,57 @@
+{
+"hero": {
+"ariaLabel": "",
+"alt": "Moayd Shagaf",
+"greeting": "Hello, I'm",
+"name": "Moayd Shagaf",
+"subtitle": "Software Engineer from Libya 🇱🇾, experienced in Python and Golang",
+"cta": "Explore My Work 🚀"
+},
+"about": {
+"imageAlt": "Personal photo of Moayd Shagaf",
+"title": "About Me",
+"intro": "I am Moayd Shagaf, a software engineer with expertise in backend web development.",
+"achievementsTitle": "Key Achievements:",
+"achievementsDesc": "Led the revamp of an e-commerce store interface, increasing conversion rates by 20%. Developed an interactive dashboard using RESTful APIs to provide instant reports and data-driven decision-making. I am always looking to explore the latest technologies such as Rust, Go, NestJS, and C# .NET to push the boundaries of software innovation."
+},
+"navbar": {
+"home": "Home",
+"about": "About Me",
+"projects": "Projects",
+"contact": "Contact Me"
+},
+"contact":{"title": "Contact Me",
+"description": "Do you have a new project or a question about my work? You can message me via the form below or contact me on",
+"linkedin": "LinkedIn",
+"nameLabel": "Name",
+"namePlaceholder": "Enter your name",
+"emailLabel": "Email",
+"emailPlaceholder": "Your email address",
+"messageLabel": "Your Message",
+"messagePlaceholder": "Type your message here",
+"submit": "Send Message"
+},
+"footer": {
+"rights": "All rights reserved."
+},
+"projects": {
+"title": "My Projects",
+"viewCode": "View Code",
+"liveDemo": "Live Demo",
+"project1": {
+"alt": "Screenshot of the first project",
+"title": "TikTok Video Downloader",
+"description": "Designed and built the backend and frontend using SOLID principles..."
+},
+"project2": {
+"alt": "Screenshot of a performance-focused web app",
+"title": "Optimized Web Application",
+"description": "Developed a single-page web app using React Hooks and Redux..."
+},
+"project3": {
+"alt": "Screenshot of an interactive dashboard",
+"title": "Interactive Dashboard",
+"description": "Programmed an interactive dashboard that provides real-time data visualization..."
+}
+}
+}
