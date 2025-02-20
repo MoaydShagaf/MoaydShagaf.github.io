@@ -3,7 +3,7 @@ name: Deploy Next.js Static Site to GitHub Pages
 on:
   push:
     branches:
-      - master  # Change this if you use a different branch
+      - master  # Change this if you're using a different branch
 
 permissions:
   contents: read
@@ -14,6 +14,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Cache apt packages (workaround)
+        uses: awalsh128/cache-apt-pkgs-action@v1.4.3
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
