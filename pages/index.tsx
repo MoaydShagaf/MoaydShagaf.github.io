@@ -7,13 +7,12 @@ import Contact from '../components/Contact';
 
 const Home: React.FC = () => {
   return (
-    <div>hello</div>
-    // <Layout>
-    //   <Hero />
-    //   <About />
-    //   <Projects />
-    //   <Contact />
-    // </Layout>
+    <Layout>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+    </Layout>
   );
 };
 
