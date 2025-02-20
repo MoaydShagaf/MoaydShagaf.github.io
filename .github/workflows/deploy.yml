@@ -30,7 +30,7 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2  # ✅ Updated version
+        uses: actions/upload-pages-artifact@v4  # ✅ Updated version
         with:
           path: "out"  # Ensure this is the correct export folder
 
