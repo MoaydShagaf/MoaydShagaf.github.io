@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LanguageProvider";
+import styles from "../styles/projects.module.css"; // Import CSS module
 
 interface ProjectCardProps {
   imageSrc: string;
@@ -27,25 +28,24 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   const { translate } = languageContext;
 
   return (
-    <div className="project-card">
-      <div className="project-img">
+    <div className={styles.projectCard}>
+      <div className={styles.projectImg}>
         <img src={imageSrc} alt={altText} />
       </div>
-      <div className="project-info">
+      <div className={styles.projectInfo}>
         <h3>{title}</h3>
         <p>{description}</p>
         <a
           href={codeLink}
-          className="project-link"
+          className={styles.projectLink}
           target="_blank"
           rel="noopener noreferrer"
         >
           {translate("projects.viewCode")}
         </a>
-        &nbsp;|&nbsp;
         <a
           href={demoLink}
-          className="project-link"
+          className={styles.projectLink}
           target="_blank"
           rel="noopener noreferrer"
         >

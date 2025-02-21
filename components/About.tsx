@@ -18,7 +18,6 @@ const About: React.FC = () => {
             src="/images/moayd.jpg"
             alt={translate("about.imageAlt")}
           />
-	  <p>here's a clue you should remove later</p>
         </div>
         <div className="about-text">
           <h2 className="section-title neon-border" id="about-heading">
